@@ -1,0 +1,33 @@
+.jump__brand{
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.jump__brand div{
+    flex: 1;
+    max-width: 150px;
+    min-width: 120px;
+    margin: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 350px) {
+    .jump__brand {
+        flex-direction: column;
+        justify-content:space-around;
+        align-items:center;
+        margin-bottom: 0rem;
+    }
+
+    .jump__brand div {
+        margin: 1rem; 
+    }
+    
+}
