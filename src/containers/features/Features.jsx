@@ -10,7 +10,7 @@ const Features = ({title,text}) => {
       <p> Digital inovation is communication</p>
     </div>
         <div className='jump__features-containers-text'>
-    <div className='break' />
+
       <Feature title="Challenge" text="See it, know it, believe it. Symbiosis is birthed in uncertainty " />
       <Feature title="Communicate" text="Communicate to the world, speak the language."   />
       <Feature title="Release" text="Freedorm of design is liberation of idea"  />

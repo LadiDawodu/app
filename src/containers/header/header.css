@@ -1,8 +1,17 @@
 .jump__header{
 
     display: flex;
-    flex-direction: row;
+
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),
+     url("/Users/ladi./Developer/Project_folder/app_/src/assests/hero.jpeg")  ;
+    background-size: cover;
+    background-image: center center;
+
+    
 }
+
 
 .jump__header-content{
     flex: 1;
@@ -10,6 +19,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 1rem;
 }
 
 .jump__header-content h1{
@@ -21,6 +31,7 @@
     line-height: 70px;
     letter-spacing: -0.02em;
     margin-top: 3rem;
+    color: #fff;
 }
 
 .jump__header-content p{
@@ -30,12 +41,13 @@
     font-weight: 400;
     line-height: 77px;
     margin-top: 1.7rem;
+    color: #fff;
 }
 
 .jump__header-content__input{
     width: 50%;
     margin: 2rem 0 1rem;
-
+    
     display: flex;
 }
 
@@ -53,14 +65,14 @@
     outline: none;
     border: 2px solid var(--color-footer);
     border-radius: 10px 0px 0px 10px;
-
+    
 }
 
 .jump__header-content__input button{
     flex: 0.4;
     width: 100%;
     min-height: 50px;
-
+    
     border-radius: 0px 9px 9px 0px;
     font-family: var(--font-family);
     font-weight: 100;
@@ -68,7 +80,7 @@
     color: black;
     padding: 0 1rem;
     cursor: pointer;
-
+    
 }
 
 .jump__header-image{
@@ -83,29 +95,33 @@
     width: 100%;
     height: 100%;
     border-radius: 10px;
-
-
+    
+    
+    
 }
 
 @media screen and (max-width: 1050px) {
     .jump__header{
         flex-direction: column;
     }
-
+    
     .jump__header-content{
+
         margin: 0 0 3rem;
     }
+
+    
     
 }
 
 @media screen and (max-width: 650px) {
     .jump__header h1{
         font-size: 48px;
-        line-height: 60px;
+        line-height: 55px;
     }
 
     .jump__header-content{
-        margin: 0 0 3rem;
+        margin: 1.4rem 0 4rem;
     }
 
     .jump__header p {

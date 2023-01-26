@@ -4,14 +4,15 @@
     justify-content: space-between;
     align-items: flex-start;
     flex-direction: row;
-
+    
     margin: 0.5rem;
+
 }
 
 .jump__features-container__feature-title {
-    flex: 1;
+    flex: 2;
     max-width: 180px;
-    margin-right: 2rem;
+    margin-right: 3rem;
 }
 
 
@@ -20,15 +21,15 @@
     font-weight: 500;
     line-height: 43px;
     font-size: 22px;
-    letter-spacing: 0.07em;
+    letter-spacing: -0.02em;
     color: white;
-
+    
 }
 
 .jump__features-container__feature-title div 
 {
     width: 38px;
-    height: 3px;
+    height: 2px;
     border-radius: 9rem;
     background: black;
     margin-bottom: 0.2rem;
@@ -36,8 +37,8 @@
 }
 
 .jump__features-container__feature-text {
-    flex: 2;
-    max-width: 360px;
+    flex: 3;
+    max-width: 390px;
     display: flex;
 }
 
@@ -48,5 +49,22 @@
     font-size: 15px;
     letter-spacing: -0.01em;
     color: var(--color-blog);
-
+    
 }
+
+@media screen and (max-width: 550px) {
+    .jump__features-container__feature-title h1 {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .jump__features-container_feature-text p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .jump__features-container__feature {
+        margin: 1rem 0;
+    }
+}
+
