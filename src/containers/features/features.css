@@ -4,20 +4,20 @@
     justify-content: space-between;
     flex-direction: row;
 
-    margin-left:2rem;
+    margin-left:1rem;
     position: relative;
 }
 
 
 .jump__features-heading{
-    flex: 2;
+    flex: 1;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
 
     text-align: left;
-    margin-right: 9rem;
+    margin-right: 4rem;
 
 }
 
@@ -48,12 +48,12 @@
     font-weight: 500;
     font-style:normal;
     font-family: var(--font-family);
-    cursor: pointer;
+
     margin-top: 2rem;
 }
 
 .jump__features-containers-text{
-    flex: 4;
+    flex: 1.4;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -67,7 +67,7 @@
     }
 
     .jump__features-heading {
-        margin: 0 0 2rem 0;
+        margin: 0 0 3rem 0;
     }
 }
 

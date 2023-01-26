@@ -13,10 +13,10 @@ import { useState } from 'react';
 const Menu = () => (
   <>
   <p><a href='#home'> WORK</a></p>
-  <p><a href='#features'>PRESS</a></p>
+  <p><a href='#press'>PRESS</a></p>
   <p><a href='#consulting'>CONSULTING</a></p>
-  <p><a href='#possibility'>SERVICES</a></p>
-  <p><a href='#whatpage'>ABOUT</a></p>
+  <p><a href='#service'>SERVICES</a></p>
+  <p><a href='#about'>ABOUT</a></p>
   
   
   </>

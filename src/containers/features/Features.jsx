@@ -4,9 +4,9 @@ import Feature from '../../components/feature/Feature';
 
 const Features = ({title,text}) => {
   return (
-    <div className='jump__features section__padding' id="features"> 
+    <div className='jump__features section__padding' id="press"> 
     <div className='jump__features-heading'>
-      <h1>A modern digital outlook with compelling immersive experiences. A modern digital outlook.</h1>
+      <h1>A modern digital outlook with compelling immersive experiences. <br /> A modern digital outlook.</h1>
       <p> Digital inovation is communication</p>
     </div>
         <div className='jump__features-containers-text'>
