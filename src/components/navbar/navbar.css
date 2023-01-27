@@ -5,7 +5,8 @@
     padding: 0.5rem 1rem 1rem 3rem;
     position: sticky;
     top: 0;     
-    width: 100vw;
+    width: 100%;
+    box-sizing: border-box;
 
     background-color: var(--color-footer);
     box-shadow: 0 1px 8px 4px rgba(0,0,0,.10);
@@ -27,7 +28,7 @@
 
 .jump__navbar-links_logo img{
     height: 74px;
-    width: 65.83px;
+    width: 65.83;
 }
 
 
@@ -133,7 +134,7 @@
     }
     .jump__navbar{
         
-        width: 100vw;
+        width: 100%;
         
 
     }
@@ -148,7 +149,7 @@
 @media screen and (max-width: 700px) {
     .jump__navbar{
         padding: 3rem 1rem;
-        width: 100vw;
+        width: 100%;
 
     }
 
