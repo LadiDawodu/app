@@ -14,11 +14,11 @@
 }
 
 .jump__navbar-links{
+
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: -1;   
 }
 
 .jump__navbar-links_logo{

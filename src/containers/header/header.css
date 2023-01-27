@@ -4,8 +4,9 @@
 
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.689),rgba(0, 0, 0, 0.401)),
      url("/Users/ladi./Developer/Project_folder/app_/src/assests/hero.jpeg")  ;
+     
     background-size: cover;
     background-image: center center;
 

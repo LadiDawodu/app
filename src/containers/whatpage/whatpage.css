@@ -73,7 +73,7 @@
 .jump__whatpage-container
 .jump__features-container__feature {
     flex: 1;
-    margin: 1rem;
+    margin: 1rem 2rem;
     min-width: 200px;
 
     flex-direction: column;
