@@ -23,7 +23,7 @@
     --color-H1text: #0d0d0f;
     --color-subtext: #737373;
     --color-button1: #3d6fb0;
-    --color-blog: #b8c0c4;
+    --color-blog: #c8c8c8;
     --color-about: #090909;
 }
 
@@ -45,10 +45,6 @@ a {
 }
 
 
-.gradient__bg{
-
-    box-shadow: 0 1px 9px -6px rgba(0,0,0,.2);
-}
 
 .gradient__text{
     background: var(--color-H1text);
@@ -110,7 +106,7 @@ a {
     }
 
     .section__margin {
-        margin: 4rem 1rem;
+        margin: 4rem 2rem;
     }
   }
 

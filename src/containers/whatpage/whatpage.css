@@ -1,15 +1,14 @@
 .jump__whatpage {
     display: flex;
     flex-direction: column;
-    padding: 3rem;
+    padding: 2rem;
     background: black;
     border-radius: 3rem;
+    box-shadow: 9px 10px 19px 0.2px rgba(0, 0, 0, 0.329);
 }
 
 .jump__whatpage-feature {
-
     display: flex;
-
 }
 
 
@@ -34,7 +33,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 4rem 0 5rem;
+    margin: 2rem 0 3rem;
     color: var(--color-footer);
 }
 
@@ -46,6 +45,7 @@
     font-family: var(--font-family);
     font-style: normal;
     margin-left: 1rem;
+    text-align: center;
 
 }
 

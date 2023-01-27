@@ -1,9 +1,8 @@
 .jump__features {
-    width: 91%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-
     margin-left:1rem;
     position: relative;
 }
@@ -29,7 +28,6 @@
     color: black !important;
 }
 
-
 .jump__features-heading h1{
     font-size: 29px;
     line-height: 34px;
@@ -37,7 +35,6 @@
     max-width: 510px;
     font-family: var(--font-family);
     font-style: normal;
-    
 }
 
 
@@ -48,7 +45,6 @@
     font-weight: 500;
     font-style:normal;
     font-family: var(--font-family);
-
     margin-top: 2rem;
 }
 

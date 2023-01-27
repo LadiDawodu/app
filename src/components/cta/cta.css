@@ -9,6 +9,7 @@
     margin: 5rem;
     border-radius: 2rem;
     background: black;  
+    box-shadow: 9px 10px 19px 0.2px rgba(0, 0, 0, 0.329);
 }
 
 .jump__cta-content {

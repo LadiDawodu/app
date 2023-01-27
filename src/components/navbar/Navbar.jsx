@@ -15,7 +15,7 @@ const Menu = () => (
   <p><a href='#home'> WORK</a></p>
   <p><a href='#press'>PRESS</a></p>
   <p><a href='#consulting'>CONSULTING</a></p>
-  <p><a href='#service'>SERVICES</a></p>
+  <p><a href='#blog'>BLOG</a></p>
   <p><a href='#about'>ABOUT</a></p>
   
   
