@@ -12,8 +12,8 @@ const Possibility = () => {
       <div className='jump__possibility-content'>
  
         <h4>Think outside the box, we'll design the rest.</h4>
-        <h1>Creativity is destination, <br /> imagination is a standard.</h1>
-        <p>Whether it's opposite, <br /> dynamic or straight, creativity is a road through boundaries. <br /> Let us walk down that road together...</p>
+        <h1>Creativity is destination, imagination is a standard.</h1>
+        <p>Whether it's opposite, dynamic or straight, creativity is a road through boundaries.  Let us walk down that road together...</p>
         <h4>Think outside the box...</h4>
 
 

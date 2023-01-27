@@ -4,8 +4,8 @@
     justify-content: space-between;
     align-items: flex-start;
     flex-direction: row;
-    
-    margin: 0.5rem;
+    margin: 0.9rem;
+
 
 }
 
@@ -13,26 +13,28 @@
     flex: 2;
     max-width: 180px;
     margin-right: 3rem;
+    text-shadow:0 2px 8px rgba(217, 216, 216, 0.284);
 }
 
 
 .jump__features-container__feature-title h1 {
     font-family: var(--font-family);
     font-weight: 500;
-    line-height: 43px;
+    line-height: 33px;
     font-size: 22px;
     letter-spacing: -0.02em;
     color: white;
+
     
 }
 
 .jump__features-container__feature-title div 
 {
-    width: 38px;
+    width: 48px;
     height: 2px;
     border-radius: 9rem;
-    background: black;
-    margin-bottom: 0.02rem;
+    background: rgb(1, 1, 1);
+    margin-bottom: 0.01rem;
     box-shadow: 0 2px 2.5px rgb(255, 255, 255);
 }
 
