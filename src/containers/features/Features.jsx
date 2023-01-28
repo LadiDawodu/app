@@ -7,7 +7,9 @@ const Features = ({title,text}) => {
     <div className='jump__features section__padding' id="press"> 
     <div className='jump__features-heading'>
       <h1>Modern digital outlook with compelling experiences. <br /> It's a digital outlook.</h1>
-      <p> Digital inovation is communication</p>
+      <div className='jump__features-heading-h3'>
+      <h3> Digital inovation <br /> is communication</h3>
+      </div>
     </div>
         <div className='jump__features-containers-text'>
 

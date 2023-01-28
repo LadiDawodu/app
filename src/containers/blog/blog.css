@@ -36,6 +36,7 @@
     flex-wrap: wrap;
     height: 100%;
     grid-gap: 2rem;
+    
 
 
 
@@ -45,12 +46,14 @@
     display: grid;
     grid-row: 1;
     grid-column: 1;
+    
 }
 .jump__blog-container_groupB{
     flex: 1;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 2rem;
+    grid-gap: 1rem;
+    
 }
 
 
@@ -58,7 +61,6 @@
     .jump__blog-container{
         flex-direction: column-reverse;
     }
-    
     .jump__blog-container_groupA{
         margin: 1.7rem ;
     }
@@ -67,6 +69,8 @@
         grid-template-columns: repeat(2, 1fr);
 
     }
+    
+
     
     
 }

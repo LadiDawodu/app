@@ -8,8 +8,7 @@
 
 .jump__brand div{
     flex: 1;
-    max-width: 150px;
-    min-width: 120px;
+
     margin-bottom: 1rem;
 
     display: flex;
