@@ -18,6 +18,8 @@ const Article = ({ imgUrl,title, }) => {
       </div>
       <p>Read more...</p>
     </div>
+
+    
   </div>
 
 
