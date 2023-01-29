@@ -122,6 +122,10 @@
 
 }
 
+.jump__footer-copyright{
+    margin-top: 2rem;
+    text-align: center;
+}
 
 .jump__footer-copyright p{
     cursor: pointer;

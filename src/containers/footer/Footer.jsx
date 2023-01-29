@@ -37,7 +37,7 @@ const Footer = () => {
 
             <div className='jump__footer-links_div'>
 
-            <h4>Get in touch</h4>
+            <h4>Contact</h4>
               <p>info@jümp.co.uk</p>
               <p> 01223 45532</p>
               <p>FAQ</p>
