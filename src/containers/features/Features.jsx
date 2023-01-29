@@ -15,7 +15,7 @@ const Features = ({title,text}) => {
 
       <Feature title="Challenge" text="See it, know it, believe it. Symbiosis is birthed in uncertainty " />
 
-      <Feature title="Communicate" text="Communicate to the world, speak the language."   />
+      <Feature title="Listen" text="Communicate to the world, speak the language."   />
       
       <Feature title="Release" text="Freedorm of design is liberation of idea"  />
     </div>

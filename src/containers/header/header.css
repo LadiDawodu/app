@@ -1,7 +1,5 @@
 .jump__header{
-
     display: flex;
-
     width: 100%;
     height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.689),rgba(0, 0, 0, 0.401)),
@@ -9,6 +7,7 @@
      
     background-size: cover;
     background-image: center center;
+
 
     
 }
@@ -20,7 +19,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 1rem;
+    margin-top: -1rem;
 }
 
 .jump__header-content h1{
@@ -28,11 +27,11 @@
     font-weight: 800;
     text-align: center;
     display: block;
-    font-size: 70px;
-    line-height: 70px;
+    font-size: 75px;
+    line-height: 77px;
     letter-spacing: -0.02em;
-    margin-top: 3rem;
     color: #fff;
+    text-shadow:0 0.1px 6px rgba(244, 244, 244, 0.285);
 }
 
 .jump__header-content p{
@@ -40,49 +39,19 @@
     font-style: italic;
     font-size: 27px;
     font-weight: 400;
-    line-height: 77px;
-    margin-top: 1.7rem;
+    line-height: 67px;
+    margin-top: 1.3rem;
     color: #fff;
-}
-
-.jump__header-content__input{
-    width: 50%;
-    margin: 2rem 0 1rem;
-    
-    display: flex;
-}
-
-.jump__header-content__input input{
-    flex: 2;
-    width: 80%;
-    min-height: 45px;
-    font-family: var(--font-family);
-    font-style: italic;
-    font-size: 20px;
-    line-height: 27px;
-    background: var(--color-footer);
-    padding: 0 1rem;
-    color: #fff;
-    outline: none;
-    border: 2px solid var(--color-footer);
-    border-radius: 10px 0px 0px 10px;
+    text-align: center;
+    text-shadow:0 0.3px 9px rgba(244, 244, 244, 0.285);
     
 }
 
-.jump__header-content__input button{
-    flex: 0.4;
-    width: 100%;
-    min-height: 50px;
-    
-    border-radius: 0px 9px 9px 0px;
-    font-family: var(--font-family);
-    font-weight: 100;
-    font-size: 15px;
-    color: black;
-    padding: 0 1rem;
-    cursor: pointer;
-    
-}
+
+
+
+
+
 
 .jump__header-image{
     flex: 0.5;
@@ -105,32 +74,24 @@
     .jump__header{
         flex-direction: column;
     }
-    
-    .jump__header-content{
 
-        margin: 0 0 3rem;
-    }
-
-    
     
 }
+
 
 @media screen and (max-width: 650px) {
     .jump__header h1{
         font-size: 48px;
         line-height: 55px;
     }
-
-    .jump__header-content{
-        margin: 1.4rem 0 4rem;
-    }
+    
 
     .jump__header p {
         font-size: 16px;
         line-height: 24px;
         margin: 0;
     }
-
+    
     /*
     .jump__header-content__input input,
     .jump__header-content__input button{
@@ -138,7 +99,7 @@
         line-height: 24px;
     }
     */
-
+    
     
     
 }
@@ -148,11 +109,11 @@
         font-size: 32px;
         line-height: 40px;
     }
-
+    
     .jump__header p{
         font-size: 12px;
-        line-height: 20px;
+        line-height: 40px;
     }
+
+
 }
-
-

@@ -5,20 +5,27 @@
     background: black;
     border-radius: 3rem;
     box-shadow: 1px 2px 25px 7px rgba(0, 0, 0, 0.309);
+    margin-top: 0.7rem !important;
+
+
+
 }
 
 .jump__whatpage-feature {
     display: flex;
+    
 }
 
 
 .jump__whatpage-feature .jump__features-container__feature {
-    margin: 2rem;
+    margin: 0;
+    margin-top: 2rem;
     display: flex;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
 }
+
 
 
 .jump__whatpage-feature .jump__features-container__feature-text {
@@ -44,7 +51,7 @@
     max-width: 510px;
     font-family: var(--font-family);
     font-style: normal;
-    margin-left: 1rem;
+
     text-align: center;
 
 }
@@ -53,7 +60,8 @@
     font-size: 18px;
     line-height: 37px;
     font-weight: 350;
-    width: auto;
+
+    text-align: center;
 
     font-family: var(--font-family);
 
@@ -67,56 +75,84 @@
     flex-direction: row;
 
     margin-top: 2rem;
+    
 
 }
 
 .jump__whatpage-container
 .jump__features-container__feature {
     flex: 1;
-    margin: 1rem 2rem;
-    min-width: 200px;
-
-    flex-direction: column;
+    margin: 1rem ;
+    display: unset;
+    flex-direction: row;
+    max-width: 700px;
 }
+
+
+
 
 .jump__whatpage-container
 .jump__features-container__feature-text {
     margin: 0.03rem;
+
 }
 
-@media screen and (max-width: 850px) {
-    .jump__whatpage-heading {
-        flex-direction: column;
-        align-items: flex-start;
-        margin-bottom: 0rem;
-    }
 
-    .jump__whatpage-heading p {
-        margin: 3rem;
+@media screen and (max-width: 850px) {
+    .jump__whatpage-feature .jump__features-container__feature {
+
+        
+        flex: unset;
+        margin-left: unset;
     }
-    
 }
 
 @media screen and (max-width: 650px) {
     .jump__whatpage-feature .jump__features-container__feature {
         flex-direction: column;
     }
-
+    
     .jump__whatpage-feature .jump__features-container__feature-text {
         margin-top: 0.5rem;
+        
     }
-
+    
     .jump__whatpage-heading h1 {
         font-size: 28px;
         line-height: 35px;
     }
+    
 
-}
-
-@media screen and (max-width: 350px) {
-    .jump__whatpage-container .jump__features-container__feature {
-        margin: 1rem 0;
-        min-width: 100%;
+    .jump__whatpage{
+        flex-direction: column;
+        margin: 4rem 2rem !important;
     }
     
+
 }
+
+
+
+
+
+@media screen and (max-width: 550px) {
+
+    
+    .jump__whatpage{
+        flex-direction: column;
+        margin: 4rem 2rem !important;
+    }
+
+
+    .jump__whatpage-container .jump__features-container__feature{
+        flex: unset;
+        margin-left: unset;
+
+    }
+
+
+
+
+}
+
+

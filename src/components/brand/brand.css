@@ -3,7 +3,7 @@
     flex-wrap: wrap;    
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .jump__brand div{
@@ -22,11 +22,11 @@
         flex-direction: column;
         justify-content:space-around;
         align-items:center;
-        margin-bottom: 3rem;
+        margin-bottom: 1rem;
     }
 
     .jump__brand div {
-        margin: 4rem; 
+        margin: 2rem; 
     }
     
 }

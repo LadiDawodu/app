@@ -26,14 +26,13 @@ const Menu = () => (
 const Navbar = () => {
   const [toggleMenu, setToggleMenu ] = useState(false);
   return (
-    <div className='jump__navbar' id="NavBar">
-      <img src={logo} alt="logo" />
+    <div className="jump__navbar">
+        <img src={logo} alt="logo" />
       <div className='jump__navbar-links'>
-        <div className="jump__navbar-links_logo">
-          
-            </div>
-            
-              <div className="jump__navbar-links_container">
+        <div className='jump__navbar-links_logo'>
+
+        </div>
+        <div className="jump__navbar-links_container">
                 <Menu/>
               </div>
 
@@ -51,13 +50,15 @@ const Navbar = () => {
             <div className='jump__navbar-menu_container scale-up-center'>
               <div className='jump__navbar-menu_container-links'>
               <Menu/>
-                <div className="jump__navbar-menu_container-links-sign">
-               
-                      </div>
+
                         </div>
                           </div>
           )}
-        </div>
+        
+
+
+      </div>
+
     </div>
   )
 }

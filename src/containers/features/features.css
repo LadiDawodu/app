@@ -70,7 +70,7 @@
     }
     
     .jump__features-heading {
-        margin: 0 0 2rem;
+        margin: 0 0 2rem 0;
         text-align: center;
     }
 
@@ -90,12 +90,6 @@
         text-align: center;
     }
 
-    .jump__features-heading-h3 {
-
-        text-align: center;
-
-    }
-
 }
 
 @media screen and (max-width: 350px){
@@ -105,5 +99,6 @@
         display: flex;
         justify-content: center;
     }    
+
 }
 

@@ -1,10 +1,11 @@
 import React from 'react';
 import  Feature from '../../components/feature/Feature';
 import './whatpage.css';
+import '/Users/ladi./Developer/Project_folder/app_/src/App.css';
 
 const Whatpage = () => {
   return (
-    <div className='jump__whatpage section__margin' id="about">
+    <div className='jump__whatpage section__margin custom-class' id="about">
       <div className='jump__whatpage-heading'>
         <h1> Let's create your next big project together.</h1>
 

@@ -74,11 +74,7 @@
 
 @media screen and (max-width: 550px) {
     .jump__blog-container_article-content h3 {
-        font-size: 35px;
+        font-size: 15px;
         line-height: 25p;
-    }
-    .jump__blog-container_article-image{
-        border-bottom-right-radius: 0rem;
-        
     }
 }

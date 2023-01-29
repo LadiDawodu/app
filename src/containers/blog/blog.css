@@ -72,12 +72,26 @@
     .jump__blog-container_groupA .jump__blog-container_article{
         display: flex;
         flex-direction: column;
-        
 
     }
     
+}
 
-    
+@media screen and (max-width: 700px) {
+    .jump__blog-container_groupB{
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+
+    .jump__blog-container_groupA .jump__blog-container_article{
+        width: 100%;
+    }
+
+    .jump__blog-heading h1{
+        font-size: 33px;
+        line-height: 40px;
+    }
     
 }
+
 
