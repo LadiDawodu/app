@@ -1,5 +1,5 @@
 {
-  "homepage": "http//ladidawodu.github.io/app",
+  "homepage": "http//LadiDawodu.github.io/app",
   "name": "app_",
   "version": "0.1.0",
   "private": true,
@@ -19,7 +19,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build",
+    "predeploy": "npm run deploy",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
