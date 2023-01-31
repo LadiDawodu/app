@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/http//ladidawodu.github.io/app/static/css/main.4e6860ff.css",
+    "main.js": "/http//ladidawodu.github.io/app/static/js/main.76dbe59c.js",
+    "static/media/blog5.png": "/http//ladidawodu.github.io/app/static/media/blog5.15b1db2fd5320b5760f2.png",
+    "static/media/blog3.png": "/http//ladidawodu.github.io/app/static/media/blog3.7689df8e8806cfd830cc.png",
+    "static/media/blog4.png": "/http//ladidawodu.github.io/app/static/media/blog4.915c1d48748052b0df94.png",
+    "static/media/blog2.png": "/http//ladidawodu.github.io/app/static/media/blog2.8cc48475716cc8865657.png",
+    "static/media/blog1.png": "/http//ladidawodu.github.io/app/static/media/blog1.9470188c8bf1649340fa.png",
+    "static/media/hero.jpeg": "/http//ladidawodu.github.io/app/static/media/hero.1f0445651e4811d4363c.jpeg",
+    "static/media/exes.svg": "/http//ladidawodu.github.io/app/static/media/exes.b0186a8df4f9d494a65aaa99b65b79be.svg",
+    "static/media/strong.png": "/http//ladidawodu.github.io/app/static/media/strong.9266bc19909cbf18eb90.png",
+    "static/media/superfood.svg": "/http//ladidawodu.github.io/app/static/media/superfood.9df914a5fc80704495a71a17d06cedca.svg",
+    "static/media/Logo-1.svg": "/http//ladidawodu.github.io/app/static/media/Logo-1.31e5c1b3a898480eaeac781aa2b1a437.svg",
+    "static/media/invision.svg": "/http//ladidawodu.github.io/app/static/media/invision.855acbd04193828fa1d8e2d38ca8e82c.svg",
+    "static/media/abstract.svg": "/http//ladidawodu.github.io/app/static/media/abstract.100d3643c5cd8afe2ba0521438d7683a.svg",
+    "static/media/visionstudio.svg": "/http//ladidawodu.github.io/app/static/media/visionstudio.e63d3fc6ac5494b95bdd3eb95c4e1055.svg",
+    "static/media/inmotion.svg": "/http//ladidawodu.github.io/app/static/media/inmotion.5764ac986efd72bc836864a290265994.svg",
+    "index.html": "/http//ladidawodu.github.io/app/index.html",
+    "main.4e6860ff.css.map": "/http//ladidawodu.github.io/app/static/css/main.4e6860ff.css.map",
+    "main.76dbe59c.js.map": "/http//ladidawodu.github.io/app/static/js/main.76dbe59c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e6860ff.css",
+    "static/js/main.76dbe59c.js"
+  ]
+}
