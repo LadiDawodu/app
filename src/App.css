@@ -4,30 +4,6 @@
     margin: 0;
     scroll-behavior: smooth;
 }
-@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
-
-:root {
-    --font-family: 'SF Pro Display', sans-serif;
-    /*background-color: #f9f9f9;*/
-    
-    
-
-    --gradient-text: linear-gradient(337deg, #f9f9f9 44%, #949494 98%);
-    
-    --gradient-bar: linear-gradient(321deg, #f9f9f9 34%, #a9a9a9 100%);
-
-
-
-    --color-bg: #f0f0f0;
-    --color-footer: #FAFAFA;
-    --color-H1text: #0d0d0f;
-    --color-subtext: #737373;
-    --color-button1: #3d6fb0;
-    --color-blog: #c8c8c8;
-    --color-about: #090909;
-}
-
-
 
 
 
@@ -57,7 +33,7 @@ a {
 
 .section__padding {
     padding: 4rem 6rem;
-}
+};
 
 .section__margin {
     margin: 4rem 6rem;
@@ -76,29 +52,29 @@ a {
     100% {
       -webkit-transform: scale(1);
               transform: scale(1);
-    }
-  }
+    };
+  };
   @keyframes scale-up-center {
     0% {
       -webkit-transform: scale(0.5);
               transform: scale(0.5);
-    }
+    };
     100% {
       -webkit-transform: scale(1);
               transform: scale(1);
-    }
-  }
+    };
+  };
   
 
   @media screen and (max-width: 700px){
     .section__padding {
         padding: 4rem;
-    }
+    };
 
     .section__margin {
         margin: 4rem;
-    }
-  }
+    };
+  };
 
 
   @media screen and (max-width: 550px){
@@ -119,6 +95,6 @@ a {
     .section__margin {
         margin: 4rem;
     }
-  }
+  };
 
 /* Now this will affect the body element of the document */

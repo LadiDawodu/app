@@ -1,0 +1,23 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+
+:root {
+    --font-family: 'SF Pro Display', sans-serif;
+    /*background-color: #f9f9f9;*/
+    
+    
+
+    --gradient-text: linear-gradient(337deg, #f9f9f9 44%, #949494 98%);
+    
+    --gradient-bar: linear-gradient(321deg, #f9f9f9 34%, #a9a9a9 100%);
+
+
+
+    --color-bg: #f0f0f0;
+    --color-footer: #FAFAFA;
+    --color-H1text: #0d0d0f;
+    --color-subtext: #737373;
+    --color-button1: #3d6fb0;
+    --color-blog: #c8c8c8;
+    --color-about: #090909;
+}

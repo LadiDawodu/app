@@ -5,7 +5,6 @@ import './navbar.css';
 import { useState } from 'react';
 
 
-// making the menu sectoin a function so it can be called at any time instead of writing it again and again
 
 
 

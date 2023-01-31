@@ -31,7 +31,7 @@ const Footer = () => {
             <h4>Company</h4>
               <p>Privacy policy</p>
               <p> Team </p>
-              <p>Terms & Conditions</p>
+              <p>Terms Conditions</p>
 
           </div>
 

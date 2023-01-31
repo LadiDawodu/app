@@ -1,18 +1,25 @@
 import React from 'react';
 import './cta.css';
-
-const CTA = () => {
-  return (
+import { useState } from 'react';
+  
+  const CTA = () => {
+    const [count, setCount] = useState(0);
+  
+    const handleClick = () => {
+      setCount(count + 1);
+    };
+    return (
     <div className='jump__cta'>
       <div className='jump__cta-content'>
         <p>Everything stands out, when you follow the road for everyone</p>
         <h3>A premium service, for every user. That's design, it's time to see creativity in the world of logic </h3>  
       </div>
         <div className='jump__cta-btn'>
-        <button type='button'>start here</button> 
+          
+        <button onClick={handleClick}type='button'>start here</button> 
         </div>
     </div>
   )
 }
 
-export default CTA
+export default CTA;

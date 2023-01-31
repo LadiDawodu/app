@@ -12,18 +12,18 @@ import{
 export default function SocialFollow() {
   return (
     <div className="social-container">
-      <p><a href="#"> 
+      <p><a href="https://twitter.com/?lang=en"> 
       <FontAwesomeIcon icon={faTwitter} size="1x" /></a>
         </p>
 
         <p>
           
-      <a href="#"> 
+      <a href="https://www.instagram.com/"> 
       <FontAwesomeIcon icon={faInstagram} size="1x" /></a>
         </p>
 
           <p>
-      <a href="#">  
+      <a href="https://uk.linkedin.com/">  
       <FontAwesomeIcon icon={faLinkedin} size="1x" /></a>
 
           </p>

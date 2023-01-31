@@ -5,7 +5,7 @@ import { Footer, Blog, Possibility, Features, Whatpage, Header } from './contain
 
 import { CTA, Brand, Navbar } from './components'
 
-
+import './App.css'
 
 
 const App = () => {
@@ -27,6 +27,6 @@ const App = () => {
   )
 }
 
-export default App
+export default App;
 
 // rafce is a react functional component
