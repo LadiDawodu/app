@@ -24,6 +24,7 @@ const Footer = () => {
           <div className='jump__footer-links_div' id="social">
             <h4>Socials</h4>
             <SocialFollow />
+            
           </div>
 
           <div className='jump__footer-links_div'>

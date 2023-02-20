@@ -1,5 +1,5 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 
 import{
   faTwitter,
@@ -7,9 +7,13 @@ import{
   faLinkedin
 } from '@fortawesome/free-brands-svg-icons';
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 
-export default function SocialFollow() {
+
+
+export default function   
+SocialFollow() {
   return (
     <div className="social-container">
       <p><a href="https://twitter.com/?lang=en"> 
