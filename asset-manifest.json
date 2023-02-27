@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/app/static/css/main.b0dc7b62.css",
-    "main.js": "/app/static/js/main.e2c39972.js",
-    "static/media/blog5.png": "/app/static/media/blog5.15b1db2fd5320b5760f2.png",
-    "static/media/blog3.png": "/app/static/media/blog3.7689df8e8806cfd830cc.png",
-    "static/media/blog4.png": "/app/static/media/blog4.915c1d48748052b0df94.png",
-    "static/media/blog2.png": "/app/static/media/blog2.8cc48475716cc8865657.png",
-    "static/media/blog1.png": "/app/static/media/blog1.9470188c8bf1649340fa.png",
+    "main.css": "/app/static/css/main.8e62cc6e.css",
+    "main.js": "/app/static/js/main.07bb529c.js",
     "static/media/hero.jpeg": "/app/static/media/hero.1f0445651e4811d4363c.jpeg",
     "static/media/exes.svg": "/app/static/media/exes.b0186a8df4f9d494a65aaa99b65b79be.svg",
+    "static/media/blog 7.jpg": "/app/static/media/blog 7.6aaf3ec26f39b63f0e97.jpg",
+    "static/media/blog3.jpg": "/app/static/media/blog3.fa0ee9b792a6fd8b4fa3.jpg",
+    "static/media/blog1.jpg": "/app/static/media/blog1.1dbf67ef67aac48ecb28.jpg",
+    "static/media/blog5.jpg": "/app/static/media/blog5.89ae5000a6166dd8ce1c.jpg",
+    "static/media/blog 6.jpg": "/app/static/media/blog 6.1011dddd43d7158920ac.jpg",
+    "static/media/blog2.jpg": "/app/static/media/blog2.b984ac099d60779c00e9.jpg",
+    "static/media/blog4.jpg": "/app/static/media/blog4.038b09d123a657e3d979.jpg",
     "static/media/strong.png": "/app/static/media/strong.9266bc19909cbf18eb90.png",
     "static/media/superfood.svg": "/app/static/media/superfood.9df914a5fc80704495a71a17d06cedca.svg",
     "static/media/Logo-1.svg": "/app/static/media/Logo-1.31e5c1b3a898480eaeac781aa2b1a437.svg",
@@ -17,11 +19,11 @@
     "static/media/visionstudio.svg": "/app/static/media/visionstudio.e63d3fc6ac5494b95bdd3eb95c4e1055.svg",
     "static/media/inmotion.svg": "/app/static/media/inmotion.5764ac986efd72bc836864a290265994.svg",
     "index.html": "/app/index.html",
-    "main.b0dc7b62.css.map": "/app/static/css/main.b0dc7b62.css.map",
-    "main.e2c39972.js.map": "/app/static/js/main.e2c39972.js.map"
+    "main.8e62cc6e.css.map": "/app/static/css/main.8e62cc6e.css.map",
+    "main.07bb529c.js.map": "/app/static/js/main.07bb529c.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0dc7b62.css",
-    "static/js/main.e2c39972.js"
+    "static/css/main.8e62cc6e.css",
+    "static/js/main.07bb529c.js"
   ]
 }
