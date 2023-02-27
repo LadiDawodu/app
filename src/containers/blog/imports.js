@@ -1,8 +1,10 @@
-import blog1 from '../../assests/blog1.png';
-import blog2 from '../../assests/blog2.png';
-import blog3 from '../../assests/blog3.png';
-import blog4 from '../../assests/blog4.png';
-import blog5 from '../../assests/blog5.png';
+import blog1 from '../../assests/blog1.jpg';
+import blog2 from '../../assests/blog2.jpg';
+import blog3 from '../../assests/blog3.jpg';
+import blog4 from '../../assests/blog4.jpg';
+import blog5 from '../../assests/blog5.jpg';
+import blog6 from '../../assests/blog 6.jpg';
+import blog7 from '../../assests/blog 7.jpg';
 
 
 export {
@@ -10,5 +12,7 @@ export {
     blog2,
     blog3,
     blog4,
-    blog5
+    blog5,
+    blog6,
+    blog7
 }

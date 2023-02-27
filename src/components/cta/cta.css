@@ -59,6 +59,19 @@
     border: none;
 }
 
+.jump__cta-btn button:active{
+    transform: scale(0.96);
+    box-shadow: none;
+    transition: 0.30s;
+
+}
+
+.jump__cta-btn button:hover{
+    color: grey;
+    transition: .4s;
+
+}
+
 
 @media screen and (max-width: 650px) {
     .jump__cta {

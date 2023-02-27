@@ -1,11 +1,11 @@
 .jump__whatpage {
     display: flex;
     flex-direction: column;
-    padding: 2rem;
+    padding: 4rem;
     background: black;
     border-radius: 3rem;
     box-shadow: 1px 2px 25px 7px rgba(0, 0, 0, 0.309);
-    margin-top: 0.7rem !important;
+    margin-top: 0.2rem !important;
 
 
 
@@ -125,7 +125,7 @@
 
     .jump__whatpage{
         flex-direction: column;
-        margin: 4rem 2rem !important;
+        margin: 1rem 2rem !important;
     }
     
 
@@ -140,7 +140,7 @@
     
     .jump__whatpage{
         flex-direction: column;
-        margin: 4rem 2rem !important;
+        margin: 4rem 2rem  !important;
     }
 
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import Article from '../../components/article/Article'
-import { blog1, blog2, blog3, blog4, blog5 } from './imports';
+import { blog1, blog2, blog3, blog4, blog5, blog7, blog6 } from './imports';
 import './blog.css';
 
 const Blog = () => {
@@ -12,8 +12,8 @@ const Blog = () => {
     <div className="jump__blog-container">
       <div className="jump__blog-container_groupA">
         <Article imgUrl={blog1} title="STRATEGIES TO TAKE YOUR STARTUP TO THE NEXT LEVEL" />
-        <Article  imgUrl={blog1} title="STRATEGIES TO TAKE YOUR STARTUP TO THE NEXT LEVEL" />
-        <Article  imgUrl={blog1} title="THE POWER OF BLANK THOUGHT SHOULD INSPIRE YOU" />
+        <Article  imgUrl={blog6} title="THE MOMENT BETWEEN USER AND PRODUCT IS DESIGN" />
+        <Article  imgUrl={blog7} title="THE POWER OF BLANK THOUGHT SHOULD INSPIRE YOU" />
       </div>
       <div className="jump__blog-container_groupB">
         <Article imgUrl={blog2}  title="STRATEGIES TO TAKE YOUR STARTUP TO THE NEXT LEVEL" />

@@ -16,7 +16,9 @@ import { useState } from 'react';
       </div>
         <div className='jump__cta-btn'>
           
+          <a href="mailto:info@jump.com">
         <button onClick={handleClick}type='button'>start here</button> 
+          </a>
         </div>
     </div>
   )

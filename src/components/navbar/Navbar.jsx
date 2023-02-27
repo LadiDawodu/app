@@ -37,8 +37,10 @@ const Navbar = () => {
 
         </div>
         <div className="jump__navbar-sign">
-
+          <a href="mailto:info@jump.com">
           <button type="button">Let's Talk</button>
+
+          </a>
         </div>
         <div className='jump__navbar-menu'>
           {toggleMenu

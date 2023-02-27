@@ -63,22 +63,37 @@
 
 .jump__navbar-sign button,
 .jump__navbar-menu_container button{
-    padding: 0.4rem 0.1rem;
     font-family: var(--font-family);
     display: flex;
     justify-content: center;
     /*flex-direction: column;*/
     align-items: flex-start;
-    border-radius: 7px;
+    border-radius: 10rem;
     cursor: pointer;
-    border: 0;
-    background: transparent;
+    
+    padding: 1rem 1rem;
+    background: none;
+    box-shadow:  0 0 1.8px #070707;
+    border: 1.2px solid white;
+    transition: 0.30s;
+    
 
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
     line-height: 27%;
     text-transform: uppercase;
+}
+
+.jump__navbar-sign button:active{
+    transform: scale(0.96);
+    box-shadow: none;
+}
+
+.jump__navbar-sign button:hover{
+
+    transition: 0.30s;
+    color: #070707;
 }
 
 .jump__navbar-menu{

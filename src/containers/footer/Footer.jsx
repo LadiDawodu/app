@@ -10,7 +10,9 @@ const Footer = () => {
       <h1>Take the journey with us, lets start the conversation</h1>
       </div>
       <div className='jump__footer-btn'>
+        <a href="mailto:info@jump.com">
         <button type='button'>Let's Talk</button> 
+        </a>
         </div>
 
         <div  className="jump__footer-links">
