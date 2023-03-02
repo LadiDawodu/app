@@ -59,6 +59,13 @@
     cursor: pointer;
     outline: none;
     text-align: center;
+    transition: 0.30s;
+
+}
+.jump__navbar-links_container p:hover{
+    
+    transform: scale(0.95);
+    transition: 0.30s;
 }
 
 .jump__navbar-sign button,
@@ -87,13 +94,14 @@
 
 .jump__navbar-sign button:active{
     transform: scale(0.96);
-    box-shadow: none;
+    transition: 0.20s;
 }
 
 .jump__navbar-sign button:hover{
 
-    transition: 0.30s;
+    transition: 0.60s;
     color: #070707;
+    box-shadow: none;
 }
 
 .jump__navbar-menu{

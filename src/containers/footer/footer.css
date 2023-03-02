@@ -23,6 +23,7 @@
 }
 .jump__footer-btn{
     margin-top: 2rem;
+    transition: 0.30s;
 }
 .jump__footer-btn button:active{
     transform: scale(0.96);
@@ -33,7 +34,7 @@
 
 .jump__footer-btn button:hover{
     box-shadow: none;
-    color: grey;
+    
     transition: 0.60s;
 
 }
@@ -53,6 +54,7 @@
     outline: none;
 
     margin-bottom: 11rem;
+    transition: 0.50s;
     
 }
 
